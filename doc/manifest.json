@@ -1,0 +1,200 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/daniel.egger/source/MultiLanguage/DotNet/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hagleitner.MultiLanguage.Identifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hagleitner.MultiLanguage.Identifier.html",
+          "hash": "DRTNmQsma4ClnFAa1TS1ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hagleitner.MultiLanguage.LanguageTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hagleitner.MultiLanguage.LanguageTag.html",
+          "hash": "qxIJzKAf5Dh2v7paBBGWzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hagleitner.MultiLanguage.Phrase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hagleitner.MultiLanguage.Phrase.html",
+          "hash": "dIyUGoN0d2unH+30V0PrtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hagleitner.MultiLanguage.Translation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hagleitner.MultiLanguage.Translation.html",
+          "hash": "fxa59B2wBT4clyfcj3fHEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hagleitner.MultiLanguage.TranslationCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hagleitner.MultiLanguage.TranslationCollection.html",
+          "hash": "n0HH6w+eRldKoNpUp3BvpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hagleitner.MultiLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hagleitner.MultiLanguage.html",
+          "hash": "Ub/19BKWMfsyOwPd4LlySw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "7bYHhEcid8JNb0Jl7RzmJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Qg5uvXcaXBXo9+7mxL9zng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/quickstart.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/quickstart.html",
+          "hash": "s2eudfG01P9oaMm6kXap2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t73sgP2YxnIQCmoJgs7DPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ufaAchDmXjfOXDDZrdBX0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "3z3LfKVBF5rFP2jhDrUqeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

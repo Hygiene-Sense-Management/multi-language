@@ -16,13 +16,13 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
     
     
     
-  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -46,7 +46,18 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../index.html" title="Hagleitner.MultiLanguage">Hagleitner.MultiLanguage</a>
+                      </li>
+                      <li>
+                          <a href="../articles/quickstart.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -59,11 +70,44 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Hagleitner.MultiLanguage.html" title="Hagleitner.MultiLanguage" class="">Hagleitner.MultiLanguage</a>
+                        
+                        <ul class="nav level2">
+                          <li class="active">
+                            <a href="Hagleitner.MultiLanguage.Identifier.html" title="Identifier" class="active">Identifier</a>
+                          </li>
+                          <li class="">
+                            <a href="Hagleitner.MultiLanguage.LanguageTag.html" title="LanguageTag" class="">LanguageTag</a>
+                          </li>
+                          <li class="">
+                            <a href="Hagleitner.MultiLanguage.Phrase.html" title="Phrase" class="">Phrase</a>
+                          </li>
+                          <li class="">
+                            <a href="Hagleitner.MultiLanguage.Translation.html" title="Translation" class="">Translation</a>
+                          </li>
+                          <li class="">
+                            <a href="Hagleitner.MultiLanguage.TranslationCollection.html" title="TranslationCollection" class="">TranslationCollection</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
@@ -109,7 +153,9 @@
   <h3 id="constructors">Constructors
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=29">View Source</a>
+  </span>
   <a id="Hagleitner_MultiLanguage_Identifier__ctor_" data-uid="Hagleitner.MultiLanguage.Identifier.#ctor*"></a>
   <h4 id="Hagleitner_MultiLanguage_Identifier__ctor_System_String_" data-uid="Hagleitner.MultiLanguage.Identifier.#ctor(System.String)">Identifier(String)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hagleitner.MultiLanguage.Identifier.html">Identifier</a> class.</p>
@@ -156,7 +202,9 @@
   <h3 id="properties">Properties
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=40">View Source</a>
+  </span>
   <a id="Hagleitner_MultiLanguage_Identifier_IdentificationString_" data-uid="Hagleitner.MultiLanguage.Identifier.IdentificationString*"></a>
   <h4 id="Hagleitner_MultiLanguage_Identifier_IdentificationString" data-uid="Hagleitner.MultiLanguage.Identifier.IdentificationString">IdentificationString</h4>
   <div class="markdown level1 summary"><p>Gets the identification string.</p>
@@ -184,7 +232,9 @@
   <h3 id="methods">Methods
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=63">View Source</a>
+  </span>
   <a id="Hagleitner_MultiLanguage_Identifier_Equals_" data-uid="Hagleitner.MultiLanguage.Identifier.Equals*"></a>
   <h4 id="Hagleitner_MultiLanguage_Identifier_Equals_Hagleitner_MultiLanguage_Identifier_" data-uid="Hagleitner.MultiLanguage.Identifier.Equals(Hagleitner.MultiLanguage.Identifier)">Equals(Identifier)</h4>
   <div class="markdown level1 summary"></div>
@@ -226,7 +276,9 @@
     </tbody>
   </table>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=74">View Source</a>
+  </span>
   <a id="Hagleitner_MultiLanguage_Identifier_Equals_" data-uid="Hagleitner.MultiLanguage.Identifier.Equals*"></a>
   <h4 id="Hagleitner_MultiLanguage_Identifier_Equals_System_Object_" data-uid="Hagleitner.MultiLanguage.Identifier.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"></div>
@@ -270,7 +322,9 @@
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=80">View Source</a>
+  </span>
   <a id="Hagleitner_MultiLanguage_Identifier_GetHashCode_" data-uid="Hagleitner.MultiLanguage.Identifier.GetHashCode*"></a>
   <h4 id="Hagleitner_MultiLanguage_Identifier_GetHashCode" data-uid="Hagleitner.MultiLanguage.Identifier.GetHashCode">GetHashCode()</h4>
   <div class="markdown level1 summary"></div>
@@ -297,7 +351,9 @@
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Object.GetHashCode()</span></div>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=86">View Source</a>
+  </span>
   <a id="Hagleitner_MultiLanguage_Identifier_ToString_" data-uid="Hagleitner.MultiLanguage.Identifier.ToString*"></a>
   <h4 id="Hagleitner_MultiLanguage_Identifier_ToString" data-uid="Hagleitner.MultiLanguage.Identifier.ToString">ToString()</h4>
   <div class="markdown level1 summary"></div>
@@ -326,7 +382,9 @@
   <h3 id="operators">Operators
   </h3>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=42">View Source</a>
+  </span>
   <a id="Hagleitner_MultiLanguage_Identifier_op_Equality_" data-uid="Hagleitner.MultiLanguage.Identifier.op_Equality*"></a>
   <h4 id="Hagleitner_MultiLanguage_Identifier_op_Equality_Hagleitner_MultiLanguage_Identifier_Hagleitner_MultiLanguage_Identifier_" data-uid="Hagleitner.MultiLanguage.Identifier.op_Equality(Hagleitner.MultiLanguage.Identifier,Hagleitner.MultiLanguage.Identifier)">Equality(Identifier, Identifier)</h4>
   <div class="markdown level1 summary"></div>
@@ -373,7 +431,9 @@
     </tbody>
   </table>
   
-  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=57">View Source</a>
+  </span>
   <a id="Hagleitner_MultiLanguage_Identifier_op_Inequality_" data-uid="Hagleitner.MultiLanguage.Identifier.op_Inequality*"></a>
   <h4 id="Hagleitner_MultiLanguage_Identifier_op_Inequality_Hagleitner_MultiLanguage_Identifier_Hagleitner_MultiLanguage_Identifier_" data-uid="Hagleitner.MultiLanguage.Identifier.op_Inequality(Hagleitner.MultiLanguage.Identifier,Hagleitner.MultiLanguage.Identifier)">Inequality(Identifier, Identifier)</h4>
   <div class="markdown level1 summary"></div>
@@ -430,6 +490,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Identifier.cs&amp;version=GBmaster&amp;line=12" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
@@ -445,9 +508,10 @@
         <div class="footer">
           <div class="container">
             <span class="pull-right">
-              <a href="https://hagleitner-egger-daniel.github.io/Documentation/">Back to docs.hagleitner.com</a>
+              <a href="#top">Back to top</a>
             </span>
             
+            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

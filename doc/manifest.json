@@ -1,15 +1,15 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/daniel.egger/source/MultiLanguage/DotNet/Documentation",
+  "source_base_path": "C:/Users/daniel.egger/source/repos/MultiLanguage/MultiLanguage/DotNet/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hagleitner.MultiLanguage.Identifier.yml",
+      "source_relative_path": "api/Hsm.MultiLanguage.LanguageTag.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hagleitner.MultiLanguage.Identifier.html",
-          "hash": "Lgnptfa7efVsXhZ/4ySQfQ=="
+          "relative_path": "api/Hsm.MultiLanguage.LanguageTag.html",
+          "hash": "+xxb83KOm7zgB49dJzVWEg=="
         }
       },
       "is_incremental": false,
@@ -17,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hagleitner.MultiLanguage.LanguageTag.yml",
+      "source_relative_path": "api/Hsm.MultiLanguage.Phrase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hagleitner.MultiLanguage.LanguageTag.html",
-          "hash": "Ry9cdZZR5BKB82BHZ9yLjQ=="
+          "relative_path": "api/Hsm.MultiLanguage.Phrase.html",
+          "hash": "d8+fTkHD8wvJP0e8UEL8mA=="
         }
       },
       "is_incremental": false,
@@ -29,11 +29,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hagleitner.MultiLanguage.Phrase.yml",
+      "source_relative_path": "api/Hsm.MultiLanguage.Translation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hagleitner.MultiLanguage.Phrase.html",
-          "hash": "OvoXUakTlFFv8sYmLuM51A=="
+          "relative_path": "api/Hsm.MultiLanguage.Translation.html",
+          "hash": "TOIAssKpboVoacP3ISzKDw=="
         }
       },
       "is_incremental": false,
@@ -41,11 +41,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hagleitner.MultiLanguage.Translation.yml",
+      "source_relative_path": "api/Hsm.MultiLanguage.TranslationCollection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hagleitner.MultiLanguage.Translation.html",
-          "hash": "h2huVX0SOihm4Awe0LmvMQ=="
+          "relative_path": "api/Hsm.MultiLanguage.TranslationCollection.html",
+          "hash": "BSZwvO2h0osqTYDjXqrtkg=="
         }
       },
       "is_incremental": false,
@@ -53,23 +53,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hagleitner.MultiLanguage.TranslationCollection.yml",
+      "source_relative_path": "api/Hsm.MultiLanguage.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hagleitner.MultiLanguage.TranslationCollection.html",
-          "hash": "246ZEUrl7sKraoMAfOXKdw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hagleitner.MultiLanguage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hagleitner.MultiLanguage.html",
-          "hash": "SfDuuklgRfkVVvZ8Br/2YA=="
+          "relative_path": "api/Hsm.MultiLanguage.html",
+          "hash": "IA3vKIcxxxn0/9ZKLL3Lpg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "E2xqV0MjiUjpOZzSeefDEw=="
+          "hash": "i+9z4WfVtDzZuqdiAmoUXQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Qg5uvXcaXBXo9+7mxL9zng=="
+          "hash": "cjTh56PqzFFrFSiwMIo1/g=="
         }
       },
       "is_incremental": false,
@@ -105,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/quickstart.html",
-          "hash": "nxg/pZSc3/bnny8QGLoafQ=="
+          "hash": "z6Ws+CqrQOCvxZn8lTL7OQ=="
         }
       },
       "is_incremental": false,
@@ -129,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "taHR3XhqnTCdNVUhvhzyOw=="
+          "hash": "zNvNCQtdg/c21KbWYCMsRg=="
         }
       },
       "is_incremental": false,
@@ -168,7 +156,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

@@ -1,0 +1,21 @@
+﻿{
+  "run": "run",
+  "swim": "swim",
+  "buildings": {
+    "house": "house",
+    "hospital": "hospital"
+  },
+  "fruits": {
+    "apple": "apple",
+    "orange": "orange"
+  },
+  "operating systems": {
+    "mobile operating systems": {
+      "android": "Android"
+    },
+    "PC operating systems": {
+      "mx linux": "MX Linux",
+      "windows": "Windows"
+    }
+  }
+}

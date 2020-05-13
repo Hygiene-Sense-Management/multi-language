@@ -1,0 +1,159 @@
+{
+  "$id": "http://www.hagleitner.com/schema/TranslationExchange.json",
+  "title": "Hagleitner Translation Exchange",
+  "description": "Standard format for exchanging data in translation workflows",
+  "definitions": {
+    "SerializationPhrase": {
+      "$id": "SerializationPhrase",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "identifier": {
+          "description": "Unique identifier for the phrase.",
+          "type": "string",
+          "pattern": ".*[^\\s].*"
+        },
+        "translationHint": {
+          "description": "String that shall help the translator to understand the meaning of the phrase.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "translations": {
+          "$id": "List`1",
+          "description": "Translations for the phrase.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$id": "SerializationTranslation",
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "languageTag": {
+                "description": "A BCP-47 language tag, describing the translation language.",
+                "type": "string"
+              },
+              "value": {
+                "description": "Represents actual translation of a phrase.",
+                "type": "string"
+              },
+              "translationStatus": {
+                "description": "Describes the validity-status of the translation.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "languageTag",
+              "value"
+            ]
+          }
+        }
+      },
+      "required": [
+        "identifier"
+      ]
+    },
+    "SerializationPhraseGroup-1": {
+      "$id": "SerializationPhraseGroup-1",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "identifier": {
+          "description": "Unique identifier for the phrase group.",
+          "type": "string",
+          "pattern": "(?=.*[^\\s].*)(?=^((?!\\|\\|).)*$)"
+        },
+        "translationHint": {
+          "description": "String that shall help the translator to understand the meaning of the phrase.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "phrases": {
+          "$id": "List`1",
+          "description": "Phrases belonging to the group.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "SerializationPhrase"
+          }
+        },
+        "phraseGroups": {
+          "$id": "List`1",
+          "description": "Sub-groups of this phrase group.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "SerializationPhraseGroup-1"
+          }
+        }
+      },
+      "required": [
+        "identifier"
+      ]
+    },
+    "SerializationTranslation": {
+      "$ref": "SerializationTranslation"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "identifier": {
+      "description": "Unique identifier for the phrase group.",
+      "type": "string",
+      "pattern": "(?=.*[^\\s].*)(?=^((?!\\|\\|).)*$)"
+    },
+    "translationHint": {
+      "description": "String that shall help the translator to understand the meaning of the phrase.",
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "phrases": {
+      "$id": "List`1",
+      "description": "Phrases belonging to the group.",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "SerializationPhrase"
+      }
+    },
+    "phraseGroups": {
+      "$id": "List`1",
+      "description": "Sub-groups of this phrase group.",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "$ref": "SerializationPhraseGroup-1"
+      }
+    }
+  },
+  "required": [
+    "identifier"
+  ]
+}

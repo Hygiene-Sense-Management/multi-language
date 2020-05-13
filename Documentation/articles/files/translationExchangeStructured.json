@@ -1,0 +1,198 @@
+{
+  "Identifier": "Root group",
+  "TranslationHint": "Root translation hint",
+  "Phrases": [
+    {
+      "Identifier": "run",
+      "TranslationHint": "fast movement",
+      "Translations": [
+        {
+          "LanguageTag": "en",
+          "Value": "run",
+          "TranslationStatus": "Approved"
+        },
+        {
+          "LanguageTag": "de",
+          "Value": "laufen",
+          "TranslationStatus": "Approved"
+        }
+      ]
+    },
+    {
+      "Identifier": "swim",
+      "TranslationHint": "a way to move around in water",
+      "Translations": [
+        {
+          "LanguageTag": "en",
+          "Value": "swim",
+          "TranslationStatus": "Approved"
+        },
+        {
+          "LanguageTag": "de",
+          "Value": "schwimmmmmen",
+          "TranslationStatus": "Unapproved"
+        }
+      ]
+    }
+  ],
+  "PhraseGroups": [
+    {
+      "Identifier": "buildings",
+      "TranslationHint": "some hint which describes buildings",
+      "Phrases": [
+        {
+          "Identifier": "house",
+          "TranslationHint": "a place where you can live in",
+          "Translations": [
+            {
+              "LanguageTag": "en",
+              "Value": "house",
+              "TranslationStatus": "Approved"
+            },
+            {
+              "LanguageTag": "de",
+              "Value": "Haus",
+              "TranslationStatus": "Approved"
+            }
+          ]
+        },
+        {
+          "Identifier": "hospital",
+          "TranslationHint": "a health care institution",
+          "Translations": [
+            {
+              "LanguageTag": "en",
+              "Value": "hospital",
+              "TranslationStatus": "Approved"
+            },
+            {
+              "LanguageTag": "de",
+              "Value": "Krankenhaus",
+              "TranslationStatus": "Approved"
+            }
+          ]
+        }
+      ],
+      "PhraseGroups": []
+    },
+    {
+      "Identifier": "fruits",
+      "TranslationHint": "something you can eat",
+      "Phrases": [
+        {
+          "Identifier": "apple",
+          "TranslationHint": "a fruit",
+          "Translations": [
+            {
+              "LanguageTag": "en",
+              "Value": "apple",
+              "TranslationStatus": "Approved"
+            }
+          ]
+        },
+        {
+          "Identifier": "banana",
+          "TranslationHint": "a fruit",
+          "Translations": [
+            {
+              "LanguageTag": "de",
+              "Value": "Banane",
+              "TranslationStatus": "Approved"
+            }
+          ]
+        },
+        {
+          "Identifier": "orange",
+          "TranslationHint": "a fruit",
+          "Translations": [
+            {
+              "LanguageTag": "en",
+              "Value": "orange",
+              "TranslationStatus": "Approved"
+            },
+            {
+              "LanguageTag": "de",
+              "Value": "Orangeee",
+              "TranslationStatus": "Unapproved"
+            }
+          ]
+        },
+        {
+          "Identifier": "lemon",
+          "TranslationHint": "a fruit",
+          "Translations": []
+        }
+      ],
+      "PhraseGroups": []
+    },
+    {
+      "Identifier": "operating systems",
+      "TranslationHint": "system software",
+      "Phrases": [],
+      "PhraseGroups": [
+        {
+          "Identifier": "mobile operating systems",
+          "TranslationHint": "mobile system software",
+          "Phrases": [
+            {
+              "Identifier": "android",
+              "TranslationHint": "an operating system",
+              "Translations": [
+                {
+                  "LanguageTag": "en",
+                  "Value": "Android",
+                  "TranslationStatus": "Approved"
+                },
+                {
+                  "LanguageTag": "de",
+                  "Value": "Android",
+                  "TranslationStatus": "Approved"
+                }
+              ]
+            }
+          ],
+          "PhraseGroups": []
+        },
+        {
+          "Identifier": "PC operating systems",
+          "TranslationHint": "PC system software",
+          "Phrases": [
+            {
+              "Identifier": "mx linux",
+              "TranslationHint": "an operating system",
+              "Translations": [
+                {
+                  "LanguageTag": "en",
+                  "Value": "MX Linux",
+                  "TranslationStatus": "Approved"
+                },
+                {
+                  "LanguageTag": "de",
+                  "Value": "MX Linux",
+                  "TranslationStatus": "Approved"
+                }
+              ]
+            },
+            {
+              "Identifier": "windows",
+              "TranslationHint": "an operating system",
+              "Translations": [
+                {
+                  "LanguageTag": "en",
+                  "Value": "Windows",
+                  "TranslationStatus": "Approved"
+                },
+                {
+                  "LanguageTag": "de",
+                  "Value": "Fenster",
+                  "TranslationStatus": "Unapproved"
+                }
+              ]
+            }
+          ],
+          "PhraseGroups": []
+        }
+      ]
+    }
+  ]
+}

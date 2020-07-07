@@ -1,15 +1,27 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/daniel.egger/source/repos/MultiLanguage/MultiLanguage/DotNet/Documentation",
+  "source_base_path": "C:/Users/daniel.egger/source/repos/LanguageTagExtensionAttila/MultiLanguage/DotNet/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.MultiLanguage.LanguageSubTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.MultiLanguage.LanguageSubTag.html",
+          "hash": "T//k3EI5hWygNUhP5naQCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/Hsm.MultiLanguage.LanguageTag.yml",
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.LanguageTag.html",
-          "hash": "Zlp3jORrMznlDZoO1W7a1Q=="
+          "hash": "4ZUpyaTjZTmMRmZeuhiGiw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +33,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.Phrase.html",
-          "hash": "ET7eGE3arWE1LMRAsHGksA=="
+          "hash": "KFSm+lYJGTolgR/xf/5ESA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.MultiLanguage.RegionSubTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.MultiLanguage.RegionSubTag.html",
+          "hash": "t3Z5cJAjjyCnixysSwDg8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.MultiLanguage.SubTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.MultiLanguage.SubTag.html",
+          "hash": "dUQhk4b5g6CWQyFIOIU72g=="
         }
       },
       "is_incremental": false,
@@ -33,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.Translation.html",
-          "hash": "6cMeDQlatK9eI8vVF53Agg=="
+          "hash": "yqWPvKJRFCwFaTY9vkPtDQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.TranslationCollection.html",
-          "hash": "Rcjiznsg1AtrSzKsplXWew=="
+          "hash": "FYMwX/b8O5dUM9AHcPOT7Q=="
         }
       },
       "is_incremental": false,
@@ -57,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.html",
-          "hash": "4JvJxVZbSYdmtPWnyCrYxw=="
+          "hash": "djGDOIAjIQxuSs4z8JCx/A=="
         }
       },
       "is_incremental": false,
@@ -69,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "QB26aoBKWpiNMLdJHxmG3w=="
+          "hash": "Kr2V1D3VX4yfAZRgFF+4RQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cjTh56PqzFFrFSiwMIo1/g=="
+          "hash": "FCcsC8V3EHgXmdPZscxuiA=="
         }
       },
       "is_incremental": false,
@@ -93,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/quickstart.html",
-          "hash": "ptYTEkYuB2vQdLqlm8C8lQ=="
+          "hash": "uWCbcGEhaRp65JD35HLIjw=="
         }
       },
       "is_incremental": false,
@@ -117,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "vR6GWWEWdfjG80UpmawyUQ=="
+          "hash": "NOr+c2zneZ8Z4gVcKQuKMg=="
         }
       },
       "is_incremental": false,
@@ -156,7 +192,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

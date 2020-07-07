@@ -73,7 +73,7 @@
   
   <h1 id="Hsm_MultiLanguage_LanguageTag" data-uid="Hsm.MultiLanguage.LanguageTag" class="text-break">Class LanguageTag
   </h1>
-  <div class="markdown level0 summary"><p>A rudimentary implementation of a BCP47 language tag.</p>
+  <div class="markdown level0 summary"><p>A simplified version of a BCP47 language tag.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -110,7 +110,112 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBmaster&amp;line=16">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=56">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_LanguageTag__ctor_" data-uid="Hsm.MultiLanguage.LanguageTag.#ctor*"></a>
+  <h4 id="Hsm_MultiLanguage_LanguageTag__ctor_Hsm_MultiLanguage_LanguageSubTag_" data-uid="Hsm.MultiLanguage.LanguageTag.#ctor(Hsm.MultiLanguage.LanguageSubTag)">LanguageTag(LanguageSubTag)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LanguageTag(LanguageSubTag language)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageSubTag.html">LanguageSubTag</a></td>
+        <td><span class="parametername">language</span></td>
+        <td><p><a class="xref" href="Hsm.MultiLanguage.LanguageSubTag.html">LanguageSubTag</a> representing the language part of the language tag.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">language</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=68">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_LanguageTag__ctor_" data-uid="Hsm.MultiLanguage.LanguageTag.#ctor*"></a>
+  <h4 id="Hsm_MultiLanguage_LanguageTag__ctor_Hsm_MultiLanguage_LanguageSubTag_Hsm_MultiLanguage_RegionSubTag_" data-uid="Hsm.MultiLanguage.LanguageTag.#ctor(Hsm.MultiLanguage.LanguageSubTag,Hsm.MultiLanguage.RegionSubTag)">LanguageTag(LanguageSubTag, RegionSubTag)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LanguageTag(LanguageSubTag language, RegionSubTag region)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageSubTag.html">LanguageSubTag</a></td>
+        <td><span class="parametername">language</span></td>
+        <td><p><a class="xref" href="Hsm.MultiLanguage.LanguageSubTag.html">LanguageSubTag</a> representing the language part of the language tag.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.RegionSubTag.html">RegionSubTag</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p><a class="xref" href="Hsm.MultiLanguage.RegionSubTag.html">RegionSubTag</a> representing the region part of the language tag.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">language</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">region</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=16">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_LanguageTag__ctor_" data-uid="Hsm.MultiLanguage.LanguageTag.#ctor*"></a>
   <h4 id="Hsm_MultiLanguage_LanguageTag__ctor_System_String_" data-uid="Hsm.MultiLanguage.LanguageTag.#ctor(System.String)">LanguageTag(String)</h4>
@@ -119,7 +224,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LanguageTag(string stringLanguageTagString)</code></pre>
+    <pre><code class="lang-csharp hljs">public LanguageTag(string languageTagString)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,9 +238,88 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">stringLanguageTagString</span></td>
-        <td><p>The string representation of the language tag.</p>
+        <td><span class="parametername">languageTagString</span></td>
+        <td><p>A string representing a language tag.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">languageTagString</code> is null or empty.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><a class="xref" href="Hsm.MultiLanguage.LanguageSubTag.html">LanguageSubTag</a> of <code data-dev-comment-type="paramref" class="paramref">languageTagString</code> is not valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=77">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_LanguageTag_Language_" data-uid="Hsm.MultiLanguage.LanguageTag.Language*"></a>
+  <h4 id="Hsm_MultiLanguage_LanguageTag_Language" data-uid="Hsm.MultiLanguage.LanguageTag.Language">Language</h4>
+  <div class="markdown level1 summary"><p>Gets the language part of the language tag.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LanguageSubTag Language { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageSubTag.html">LanguageSubTag</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=82">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_LanguageTag_Region_" data-uid="Hsm.MultiLanguage.LanguageTag.Region*"></a>
+  <h4 id="Hsm_MultiLanguage_LanguageTag_Region" data-uid="Hsm.MultiLanguage.LanguageTag.Region">Region</h4>
+  <div class="markdown level1 summary"><p>Gets the region part of the language tag.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RegionSubTag Region { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.RegionSubTag.html">RegionSubTag</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -143,7 +327,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBmaster&amp;line=28">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=120">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_LanguageTag_Equals_" data-uid="Hsm.MultiLanguage.LanguageTag.Equals*"></a>
   <h4 id="Hsm_MultiLanguage_LanguageTag_Equals_Hsm_MultiLanguage_LanguageTag_" data-uid="Hsm.MultiLanguage.LanguageTag.Equals(Hsm.MultiLanguage.LanguageTag)">Equals(LanguageTag)</h4>
@@ -187,7 +371,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBmaster&amp;line=44">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=146">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_LanguageTag_Equals_" data-uid="Hsm.MultiLanguage.LanguageTag.Equals*"></a>
   <h4 id="Hsm_MultiLanguage_LanguageTag_Equals_System_Object_" data-uid="Hsm.MultiLanguage.LanguageTag.Equals(System.Object)">Equals(Object)</h4>
@@ -233,7 +417,7 @@
   <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBmaster&amp;line=65">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=167">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_LanguageTag_GetHashCode_" data-uid="Hsm.MultiLanguage.LanguageTag.GetHashCode*"></a>
   <h4 id="Hsm_MultiLanguage_LanguageTag_GetHashCode" data-uid="Hsm.MultiLanguage.LanguageTag.GetHashCode">GetHashCode()</h4>
@@ -262,7 +446,7 @@
   <div><span class="xref">System.Object.GetHashCode()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBmaster&amp;line=22">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=109">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_LanguageTag_ToString_" data-uid="Hsm.MultiLanguage.LanguageTag.ToString*"></a>
   <h4 id="Hsm_MultiLanguage_LanguageTag_ToString" data-uid="Hsm.MultiLanguage.LanguageTag.ToString">ToString()</h4>
@@ -289,6 +473,61 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Object.ToString()</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=92">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_LanguageTag_TryParse_" data-uid="Hsm.MultiLanguage.LanguageTag.TryParse*"></a>
+  <h4 id="Hsm_MultiLanguage_LanguageTag_TryParse_System_String_Hsm_MultiLanguage_LanguageTag__" data-uid="Hsm.MultiLanguage.LanguageTag.TryParse(System.String,Hsm.MultiLanguage.LanguageTag@)">TryParse(String, out LanguageTag)</h4>
+  <div class="markdown level1 summary"><p>Converts the string representation of a <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> to its <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> equivalent. A return value indicates whether the operation succeeded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryParse(string languageTagString, out LanguageTag languageTag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">languageTagString</span></td>
+        <td><p>The string to be parsed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a></td>
+        <td><span class="parametername">languageTag</span></td>
+        <td><p>When the method returns, contains the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> equivalent to the input string, if the conversion succeeded,
+or null, if the conversion failed. The conversion fails if the input parameter is null or does not contain a valid string representation of a <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.
+This parameter is passed uninitialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the input parameter is successfully converted; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.IEquatable&lt;T&gt;</span>
@@ -301,7 +540,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBMultiLanguageExtension&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

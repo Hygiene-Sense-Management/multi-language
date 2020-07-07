@@ -115,7 +115,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBmaster&amp;line=13">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBMultiLanguageExtension&amp;line=13">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_Phrase_Translations_" data-uid="Hsm.MultiLanguage.Phrase.Translations*"></a>
   <h4 id="Hsm_MultiLanguage_Phrase_Translations" data-uid="Hsm.MultiLanguage.Phrase.Translations">Translations</h4>
@@ -145,7 +145,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBmaster&amp;line=20">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBMultiLanguageExtension&amp;line=21">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_Phrase_AddTranslation_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslation*"></a>
   <h4 id="Hsm_MultiLanguage_Phrase_AddTranslation_Hsm_MultiLanguage_Translation_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslation(Hsm.MultiLanguage.Translation)">AddTranslation(Translation)</h4>
@@ -185,14 +185,19 @@
     <tbody>
       <tr>
         <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>This phrase already contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with an equal language tag to the one used in <code data-dev-comment-type="paramref" class="paramref">translation</code>.</p>
+        <td><p>This phrase already contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with an equal <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> to the one used in <code data-dev-comment-type="paramref" class="paramref">translation</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translation</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBmaster&amp;line=30">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBMultiLanguageExtension&amp;line=37">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_Phrase_AddTranslations_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslations*"></a>
   <h4 id="Hsm_MultiLanguage_Phrase_AddTranslations_Hsm_MultiLanguage_TranslationCollection_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslations(Hsm.MultiLanguage.TranslationCollection)">AddTranslations(TranslationCollection)</h4>
@@ -235,6 +240,60 @@
         <td><p>This phrase already contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with a language tag equal to a language tag of <code data-dev-comment-type="paramref" class="paramref">translations</code>.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBMultiLanguageExtension&amp;line=54">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_GetTranslationWithLanguageTag_" data-uid="Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_GetTranslationWithLanguageTag_Hsm_MultiLanguage_LanguageTag_" data-uid="Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)">GetTranslationWithLanguageTag(LanguageTag)</h4>
+  <div class="markdown level1 summary"><p>Gets the required translation based on parent language logic.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Translation GetTranslationWithLanguageTag(LanguageTag languageTag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a></td>
+        <td><span class="parametername">languageTag</span></td>
+        <td><p>The <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> which is used for getting the required <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><p>Returns a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> based on the passed <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.
+If the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> is not in the collection, this method returns a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> based on following fallback mechanism:
+Equal <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> &gt; equal <a class="xref" href="Hsm.MultiLanguage.LanguageSubTag.html">LanguageSubTag</a> &gt; invariant English (en) &gt; first <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> &gt; null.</p>
+</td>
+      </tr>
     </tbody>
   </table>
 </article>
@@ -245,7 +304,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/TranslationExchange/_git/TranslationExchange?path=MultiLanguage/DotNet/MultiLanguage/Phrase.cs&amp;version=GBMultiLanguageExtension&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

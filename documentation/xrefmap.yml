@@ -73,6 +73,19 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.LanguageTag.LanguageTag
   nameWithType: LanguageTag.LanguageTag
+- uid: Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom(System.Globalization.CultureInfo)
+  name: CreateLanguageTagFrom(CultureInfo)
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_CreateLanguageTagFrom_System_Globalization_CultureInfo_
+  commentId: M:Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom(System.Globalization.CultureInfo)
+  fullName: Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom(System.Globalization.CultureInfo)
+  nameWithType: LanguageTag.CreateLanguageTagFrom(CultureInfo)
+- uid: Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom*
+  name: CreateLanguageTagFrom
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_CreateLanguageTagFrom_
+  commentId: Overload:Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom
+  nameWithType: LanguageTag.CreateLanguageTagFrom
 - uid: Hsm.MultiLanguage.LanguageTag.Equals(Hsm.MultiLanguage.LanguageTag)
   name: Equals(LanguageTag)
   href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_Equals_Hsm_MultiLanguage_LanguageTag_
@@ -105,6 +118,19 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.LanguageTag.GetHashCode
   nameWithType: LanguageTag.GetHashCode
+- uid: Hsm.MultiLanguage.LanguageTag.InvariantEnglish
+  name: InvariantEnglish
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_InvariantEnglish
+  commentId: P:Hsm.MultiLanguage.LanguageTag.InvariantEnglish
+  fullName: Hsm.MultiLanguage.LanguageTag.InvariantEnglish
+  nameWithType: LanguageTag.InvariantEnglish
+- uid: Hsm.MultiLanguage.LanguageTag.InvariantEnglish*
+  name: InvariantEnglish
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_InvariantEnglish_
+  commentId: Overload:Hsm.MultiLanguage.LanguageTag.InvariantEnglish
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.LanguageTag.InvariantEnglish
+  nameWithType: LanguageTag.InvariantEnglish
 - uid: Hsm.MultiLanguage.LanguageTag.Language
   name: Language
   href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_Language

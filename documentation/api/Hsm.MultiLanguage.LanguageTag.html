@@ -101,7 +101,7 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.MultiLanguage.html">Hsm.MultiLanguage</a></h6>
-  <h6><strong>Assembly</strong>: MultiLanguage.dll</h6>
+  <h6><strong>Assembly</strong>: Hsm.MultiLanguage.dll</h6>
   <h5 id="Hsm_MultiLanguage_LanguageTag_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class LanguageTag : IEquatable&lt;LanguageTag&gt;</code></pre>
@@ -357,14 +357,14 @@
   <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBdevelop&amp;line=97">View Source</a>
   </span>
-  <a id="Hsm_MultiLanguage_LanguageTag_CreateLanguageTagFrom_" data-uid="Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom*"></a>
-  <h4 id="Hsm_MultiLanguage_LanguageTag_CreateLanguageTagFrom_System_Globalization_CultureInfo_" data-uid="Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom(System.Globalization.CultureInfo)">CreateLanguageTagFrom(CultureInfo)</h4>
+  <a id="Hsm_MultiLanguage_LanguageTag_CreateFromCultureInfo_" data-uid="Hsm.MultiLanguage.LanguageTag.CreateFromCultureInfo*"></a>
+  <h4 id="Hsm_MultiLanguage_LanguageTag_CreateFromCultureInfo_System_Globalization_CultureInfo_" data-uid="Hsm.MultiLanguage.LanguageTag.CreateFromCultureInfo(System.Globalization.CultureInfo)">CreateFromCultureInfo(CultureInfo)</h4>
   <div class="markdown level1 summary"><p>Creates a <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> from a <span class="xref">System.Globalization.CultureInfo</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static LanguageTag CreateLanguageTagFrom(CultureInfo cultureInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public static LanguageTag CreateFromCultureInfo(CultureInfo cultureInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -540,6 +540,64 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBdevelop&amp;line=217">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_LanguageTag_GetParent_" data-uid="Hsm.MultiLanguage.LanguageTag.GetParent*"></a>
+  <h4 id="Hsm_MultiLanguage_LanguageTag_GetParent" data-uid="Hsm.MultiLanguage.LanguageTag.GetParent">GetParent()</h4>
+  <div class="markdown level1 summary"><p>Gets the parent <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LanguageTag GetParent()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a></td>
+        <td><p>Returns a parent <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBdevelop&amp;line=231">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_LanguageTag_HasParent_" data-uid="Hsm.MultiLanguage.LanguageTag.HasParent*"></a>
+  <h4 id="Hsm_MultiLanguage_LanguageTag_HasParent" data-uid="Hsm.MultiLanguage.LanguageTag.HasParent">HasParent()</h4>
+  <div class="markdown level1 summary"><p>Gets whether the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> has a parent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasParent()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the parent <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> exists, false if not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/LanguageTag.cs&amp;version=GBdevelop&amp;line=142">View Source</a>

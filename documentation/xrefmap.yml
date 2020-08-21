@@ -73,19 +73,19 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.LanguageTag.LanguageTag
   nameWithType: LanguageTag.LanguageTag
-- uid: Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom(System.Globalization.CultureInfo)
-  name: CreateLanguageTagFrom(CultureInfo)
-  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_CreateLanguageTagFrom_System_Globalization_CultureInfo_
-  commentId: M:Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom(System.Globalization.CultureInfo)
-  fullName: Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom(System.Globalization.CultureInfo)
-  nameWithType: LanguageTag.CreateLanguageTagFrom(CultureInfo)
-- uid: Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom*
-  name: CreateLanguageTagFrom
-  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_CreateLanguageTagFrom_
-  commentId: Overload:Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom
+- uid: Hsm.MultiLanguage.LanguageTag.CreateFromCultureInfo(System.Globalization.CultureInfo)
+  name: CreateFromCultureInfo(CultureInfo)
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_CreateFromCultureInfo_System_Globalization_CultureInfo_
+  commentId: M:Hsm.MultiLanguage.LanguageTag.CreateFromCultureInfo(System.Globalization.CultureInfo)
+  fullName: Hsm.MultiLanguage.LanguageTag.CreateFromCultureInfo(System.Globalization.CultureInfo)
+  nameWithType: LanguageTag.CreateFromCultureInfo(CultureInfo)
+- uid: Hsm.MultiLanguage.LanguageTag.CreateFromCultureInfo*
+  name: CreateFromCultureInfo
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_CreateFromCultureInfo_
+  commentId: Overload:Hsm.MultiLanguage.LanguageTag.CreateFromCultureInfo
   isSpec: "True"
-  fullName: Hsm.MultiLanguage.LanguageTag.CreateLanguageTagFrom
-  nameWithType: LanguageTag.CreateLanguageTagFrom
+  fullName: Hsm.MultiLanguage.LanguageTag.CreateFromCultureInfo
+  nameWithType: LanguageTag.CreateFromCultureInfo
 - uid: Hsm.MultiLanguage.LanguageTag.Equals(Hsm.MultiLanguage.LanguageTag)
   name: Equals(LanguageTag)
   href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_Equals_Hsm_MultiLanguage_LanguageTag_
@@ -118,6 +118,32 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.LanguageTag.GetHashCode
   nameWithType: LanguageTag.GetHashCode
+- uid: Hsm.MultiLanguage.LanguageTag.GetParent
+  name: GetParent()
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_GetParent
+  commentId: M:Hsm.MultiLanguage.LanguageTag.GetParent
+  fullName: Hsm.MultiLanguage.LanguageTag.GetParent()
+  nameWithType: LanguageTag.GetParent()
+- uid: Hsm.MultiLanguage.LanguageTag.GetParent*
+  name: GetParent
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_GetParent_
+  commentId: Overload:Hsm.MultiLanguage.LanguageTag.GetParent
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.LanguageTag.GetParent
+  nameWithType: LanguageTag.GetParent
+- uid: Hsm.MultiLanguage.LanguageTag.HasParent
+  name: HasParent()
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_HasParent
+  commentId: M:Hsm.MultiLanguage.LanguageTag.HasParent
+  fullName: Hsm.MultiLanguage.LanguageTag.HasParent()
+  nameWithType: LanguageTag.HasParent()
+- uid: Hsm.MultiLanguage.LanguageTag.HasParent*
+  name: HasParent
+  href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_HasParent_
+  commentId: Overload:Hsm.MultiLanguage.LanguageTag.HasParent
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.LanguageTag.HasParent
+  nameWithType: LanguageTag.HasParent
 - uid: Hsm.MultiLanguage.LanguageTag.InvariantEnglish
   name: InvariantEnglish
   href: api/Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_InvariantEnglish
@@ -192,12 +218,78 @@ references:
   commentId: T:Hsm.MultiLanguage.Phrase
   fullName: Hsm.MultiLanguage.Phrase
   nameWithType: Phrase
+- uid: Hsm.MultiLanguage.Phrase.#ctor
+  name: Phrase()
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase__ctor
+  commentId: M:Hsm.MultiLanguage.Phrase.#ctor
+  fullName: Hsm.MultiLanguage.Phrase.Phrase()
+  nameWithType: Phrase.Phrase()
+- uid: Hsm.MultiLanguage.Phrase.#ctor(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})
+  name: Phrase(IEnumerable<Translation>)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase__ctor_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_Translation__
+  commentId: M:Hsm.MultiLanguage.Phrase.#ctor(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})
+  name.vb: Phrase(IEnumerable(Of Translation))
+  fullName: Hsm.MultiLanguage.Phrase.Phrase(System.Collections.Generic.IEnumerable<Hsm.MultiLanguage.Translation>)
+  fullName.vb: Hsm.MultiLanguage.Phrase.Phrase(System.Collections.Generic.IEnumerable(Of Hsm.MultiLanguage.Translation))
+  nameWithType: Phrase.Phrase(IEnumerable<Translation>)
+  nameWithType.vb: Phrase.Phrase(IEnumerable(Of Translation))
+- uid: Hsm.MultiLanguage.Phrase.#ctor*
+  name: Phrase
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase__ctor_
+  commentId: Overload:Hsm.MultiLanguage.Phrase.#ctor
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Phrase.Phrase
+  nameWithType: Phrase.Phrase
+- uid: Hsm.MultiLanguage.Phrase.AddInvariantEnglishTranslation(System.String)
+  name: AddInvariantEnglishTranslation(String)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddInvariantEnglishTranslation_System_String_
+  commentId: M:Hsm.MultiLanguage.Phrase.AddInvariantEnglishTranslation(System.String)
+  fullName: Hsm.MultiLanguage.Phrase.AddInvariantEnglishTranslation(System.String)
+  nameWithType: Phrase.AddInvariantEnglishTranslation(String)
+- uid: Hsm.MultiLanguage.Phrase.AddInvariantEnglishTranslation*
+  name: AddInvariantEnglishTranslation
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddInvariantEnglishTranslation_
+  commentId: Overload:Hsm.MultiLanguage.Phrase.AddInvariantEnglishTranslation
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Phrase.AddInvariantEnglishTranslation
+  nameWithType: Phrase.AddInvariantEnglishTranslation
+- uid: Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(Hsm.MultiLanguage.Translation)
+  name: AddOrReplaceTranslation(Translation)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddOrReplaceTranslation_Hsm_MultiLanguage_Translation_
+  commentId: M:Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(Hsm.MultiLanguage.Translation)
+  fullName: Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(Hsm.MultiLanguage.Translation)
+  nameWithType: Phrase.AddOrReplaceTranslation(Translation)
+- uid: Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})
+  name: AddOrReplaceTranslation(IEnumerable<Translation>)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddOrReplaceTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_Translation__
+  commentId: M:Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})
+  name.vb: AddOrReplaceTranslation(IEnumerable(Of Translation))
+  fullName: Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(System.Collections.Generic.IEnumerable<Hsm.MultiLanguage.Translation>)
+  fullName.vb: Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(System.Collections.Generic.IEnumerable(Of Hsm.MultiLanguage.Translation))
+  nameWithType: Phrase.AddOrReplaceTranslation(IEnumerable<Translation>)
+  nameWithType.vb: Phrase.AddOrReplaceTranslation(IEnumerable(Of Translation))
+- uid: Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation*
+  name: AddOrReplaceTranslation
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddOrReplaceTranslation_
+  commentId: Overload:Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation
+  nameWithType: Phrase.AddOrReplaceTranslation
 - uid: Hsm.MultiLanguage.Phrase.AddTranslation(Hsm.MultiLanguage.Translation)
   name: AddTranslation(Translation)
   href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddTranslation_Hsm_MultiLanguage_Translation_
   commentId: M:Hsm.MultiLanguage.Phrase.AddTranslation(Hsm.MultiLanguage.Translation)
   fullName: Hsm.MultiLanguage.Phrase.AddTranslation(Hsm.MultiLanguage.Translation)
   nameWithType: Phrase.AddTranslation(Translation)
+- uid: Hsm.MultiLanguage.Phrase.AddTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})
+  name: AddTranslation(IEnumerable<Translation>)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_Translation__
+  commentId: M:Hsm.MultiLanguage.Phrase.AddTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})
+  name.vb: AddTranslation(IEnumerable(Of Translation))
+  fullName: Hsm.MultiLanguage.Phrase.AddTranslation(System.Collections.Generic.IEnumerable<Hsm.MultiLanguage.Translation>)
+  fullName.vb: Hsm.MultiLanguage.Phrase.AddTranslation(System.Collections.Generic.IEnumerable(Of Hsm.MultiLanguage.Translation))
+  nameWithType: Phrase.AddTranslation(IEnumerable<Translation>)
+  nameWithType.vb: Phrase.AddTranslation(IEnumerable(Of Translation))
 - uid: Hsm.MultiLanguage.Phrase.AddTranslation*
   name: AddTranslation
   href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddTranslation_
@@ -205,32 +297,76 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.Phrase.AddTranslation
   nameWithType: Phrase.AddTranslation
-- uid: Hsm.MultiLanguage.Phrase.AddTranslations(Hsm.MultiLanguage.TranslationCollection)
-  name: AddTranslations(TranslationCollection)
-  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddTranslations_Hsm_MultiLanguage_TranslationCollection_
-  commentId: M:Hsm.MultiLanguage.Phrase.AddTranslations(Hsm.MultiLanguage.TranslationCollection)
-  fullName: Hsm.MultiLanguage.Phrase.AddTranslations(Hsm.MultiLanguage.TranslationCollection)
-  nameWithType: Phrase.AddTranslations(TranslationCollection)
-- uid: Hsm.MultiLanguage.Phrase.AddTranslations*
-  name: AddTranslations
-  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_AddTranslations_
-  commentId: Overload:Hsm.MultiLanguage.Phrase.AddTranslations
+- uid: Hsm.MultiLanguage.Phrase.GetBestTranslation(Hsm.MultiLanguage.LanguageTag)
+  name: GetBestTranslation(LanguageTag)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_GetBestTranslation_Hsm_MultiLanguage_LanguageTag_
+  commentId: M:Hsm.MultiLanguage.Phrase.GetBestTranslation(Hsm.MultiLanguage.LanguageTag)
+  fullName: Hsm.MultiLanguage.Phrase.GetBestTranslation(Hsm.MultiLanguage.LanguageTag)
+  nameWithType: Phrase.GetBestTranslation(LanguageTag)
+- uid: Hsm.MultiLanguage.Phrase.GetBestTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag})
+  name: GetBestTranslation(IEnumerable<LanguageTag>)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_GetBestTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_LanguageTag__
+  commentId: M:Hsm.MultiLanguage.Phrase.GetBestTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag})
+  name.vb: GetBestTranslation(IEnumerable(Of LanguageTag))
+  fullName: Hsm.MultiLanguage.Phrase.GetBestTranslation(System.Collections.Generic.IEnumerable<Hsm.MultiLanguage.LanguageTag>)
+  fullName.vb: Hsm.MultiLanguage.Phrase.GetBestTranslation(System.Collections.Generic.IEnumerable(Of Hsm.MultiLanguage.LanguageTag))
+  nameWithType: Phrase.GetBestTranslation(IEnumerable<LanguageTag>)
+  nameWithType.vb: Phrase.GetBestTranslation(IEnumerable(Of LanguageTag))
+- uid: Hsm.MultiLanguage.Phrase.GetBestTranslation*
+  name: GetBestTranslation
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_GetBestTranslation_
+  commentId: Overload:Hsm.MultiLanguage.Phrase.GetBestTranslation
   isSpec: "True"
-  fullName: Hsm.MultiLanguage.Phrase.AddTranslations
-  nameWithType: Phrase.AddTranslations
-- uid: Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  name: GetTranslationWithLanguageTag(LanguageTag)
-  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_GetTranslationWithLanguageTag_Hsm_MultiLanguage_LanguageTag_
-  commentId: M:Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  fullName: Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  nameWithType: Phrase.GetTranslationWithLanguageTag(LanguageTag)
-- uid: Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag*
-  name: GetTranslationWithLanguageTag
-  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_GetTranslationWithLanguageTag_
-  commentId: Overload:Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag
+  fullName: Hsm.MultiLanguage.Phrase.GetBestTranslation
+  nameWithType: Phrase.GetBestTranslation
+- uid: Hsm.MultiLanguage.Phrase.GetTranslation(Hsm.MultiLanguage.LanguageTag)
+  name: GetTranslation(LanguageTag)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_GetTranslation_Hsm_MultiLanguage_LanguageTag_
+  commentId: M:Hsm.MultiLanguage.Phrase.GetTranslation(Hsm.MultiLanguage.LanguageTag)
+  fullName: Hsm.MultiLanguage.Phrase.GetTranslation(Hsm.MultiLanguage.LanguageTag)
+  nameWithType: Phrase.GetTranslation(LanguageTag)
+- uid: Hsm.MultiLanguage.Phrase.GetTranslation*
+  name: GetTranslation
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_GetTranslation_
+  commentId: Overload:Hsm.MultiLanguage.Phrase.GetTranslation
   isSpec: "True"
-  fullName: Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag
-  nameWithType: Phrase.GetTranslationWithLanguageTag
+  fullName: Hsm.MultiLanguage.Phrase.GetTranslation
+  nameWithType: Phrase.GetTranslation
+- uid: Hsm.MultiLanguage.Phrase.HasInvariantEnglishTranslation
+  name: HasInvariantEnglishTranslation()
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_HasInvariantEnglishTranslation
+  commentId: M:Hsm.MultiLanguage.Phrase.HasInvariantEnglishTranslation
+  fullName: Hsm.MultiLanguage.Phrase.HasInvariantEnglishTranslation()
+  nameWithType: Phrase.HasInvariantEnglishTranslation()
+- uid: Hsm.MultiLanguage.Phrase.HasInvariantEnglishTranslation*
+  name: HasInvariantEnglishTranslation
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_HasInvariantEnglishTranslation_
+  commentId: Overload:Hsm.MultiLanguage.Phrase.HasInvariantEnglishTranslation
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Phrase.HasInvariantEnglishTranslation
+  nameWithType: Phrase.HasInvariantEnglishTranslation
+- uid: Hsm.MultiLanguage.Phrase.HasTranslation(Hsm.MultiLanguage.LanguageTag)
+  name: HasTranslation(LanguageTag)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_HasTranslation_Hsm_MultiLanguage_LanguageTag_
+  commentId: M:Hsm.MultiLanguage.Phrase.HasTranslation(Hsm.MultiLanguage.LanguageTag)
+  fullName: Hsm.MultiLanguage.Phrase.HasTranslation(Hsm.MultiLanguage.LanguageTag)
+  nameWithType: Phrase.HasTranslation(LanguageTag)
+- uid: Hsm.MultiLanguage.Phrase.HasTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag})
+  name: HasTranslation(IEnumerable<LanguageTag>)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_HasTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_LanguageTag__
+  commentId: M:Hsm.MultiLanguage.Phrase.HasTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag})
+  name.vb: HasTranslation(IEnumerable(Of LanguageTag))
+  fullName: Hsm.MultiLanguage.Phrase.HasTranslation(System.Collections.Generic.IEnumerable<Hsm.MultiLanguage.LanguageTag>)
+  fullName.vb: Hsm.MultiLanguage.Phrase.HasTranslation(System.Collections.Generic.IEnumerable(Of Hsm.MultiLanguage.LanguageTag))
+  nameWithType: Phrase.HasTranslation(IEnumerable<LanguageTag>)
+  nameWithType.vb: Phrase.HasTranslation(IEnumerable(Of LanguageTag))
+- uid: Hsm.MultiLanguage.Phrase.HasTranslation*
+  name: HasTranslation
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_HasTranslation_
+  commentId: Overload:Hsm.MultiLanguage.Phrase.HasTranslation
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Phrase.HasTranslation
+  nameWithType: Phrase.HasTranslation
 - uid: Hsm.MultiLanguage.Phrase.Translations
   name: Translations
   href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_Translations
@@ -244,6 +380,31 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.Phrase.Translations
   nameWithType: Phrase.Translations
+- uid: Hsm.MultiLanguage.Phrase.TryGetTranslation(Hsm.MultiLanguage.LanguageTag,Hsm.MultiLanguage.Translation@)
+  name: TryGetTranslation(LanguageTag, out Translation)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_TryGetTranslation_Hsm_MultiLanguage_LanguageTag_Hsm_MultiLanguage_Translation__
+  commentId: M:Hsm.MultiLanguage.Phrase.TryGetTranslation(Hsm.MultiLanguage.LanguageTag,Hsm.MultiLanguage.Translation@)
+  name.vb: TryGetTranslation(LanguageTag, ByRef Translation)
+  fullName: Hsm.MultiLanguage.Phrase.TryGetTranslation(Hsm.MultiLanguage.LanguageTag, out Hsm.MultiLanguage.Translation)
+  fullName.vb: Hsm.MultiLanguage.Phrase.TryGetTranslation(Hsm.MultiLanguage.LanguageTag, ByRef Hsm.MultiLanguage.Translation)
+  nameWithType: Phrase.TryGetTranslation(LanguageTag, out Translation)
+  nameWithType.vb: Phrase.TryGetTranslation(LanguageTag, ByRef Translation)
+- uid: Hsm.MultiLanguage.Phrase.TryGetTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag},Hsm.MultiLanguage.Translation@)
+  name: TryGetTranslation(IEnumerable<LanguageTag>, out Translation)
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_TryGetTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_LanguageTag__Hsm_MultiLanguage_Translation__
+  commentId: M:Hsm.MultiLanguage.Phrase.TryGetTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag},Hsm.MultiLanguage.Translation@)
+  name.vb: TryGetTranslation(IEnumerable(Of LanguageTag), ByRef Translation)
+  fullName: Hsm.MultiLanguage.Phrase.TryGetTranslation(System.Collections.Generic.IEnumerable<Hsm.MultiLanguage.LanguageTag>, out Hsm.MultiLanguage.Translation)
+  fullName.vb: Hsm.MultiLanguage.Phrase.TryGetTranslation(System.Collections.Generic.IEnumerable(Of Hsm.MultiLanguage.LanguageTag), ByRef Hsm.MultiLanguage.Translation)
+  nameWithType: Phrase.TryGetTranslation(IEnumerable<LanguageTag>, out Translation)
+  nameWithType.vb: Phrase.TryGetTranslation(IEnumerable(Of LanguageTag), ByRef Translation)
+- uid: Hsm.MultiLanguage.Phrase.TryGetTranslation*
+  name: TryGetTranslation
+  href: api/Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_TryGetTranslation_
+  commentId: Overload:Hsm.MultiLanguage.Phrase.TryGetTranslation
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Phrase.TryGetTranslation
+  nameWithType: Phrase.TryGetTranslation
 - uid: Hsm.MultiLanguage.RegionSubTag
   name: RegionSubTag
   href: api/Hsm.MultiLanguage.RegionSubTag.html
@@ -388,77 +549,22 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.Translation.Value
   nameWithType: Translation.Value
-- uid: Hsm.MultiLanguage.TranslationCollection
-  name: TranslationCollection
-  href: api/Hsm.MultiLanguage.TranslationCollection.html
-  commentId: T:Hsm.MultiLanguage.TranslationCollection
-  fullName: Hsm.MultiLanguage.TranslationCollection
-  nameWithType: TranslationCollection
-- uid: Hsm.MultiLanguage.TranslationCollection.AddRange(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})
-  name: AddRange(IEnumerable<Translation>)
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_AddRange_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_Translation__
-  commentId: M:Hsm.MultiLanguage.TranslationCollection.AddRange(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})
-  name.vb: AddRange(IEnumerable(Of Translation))
-  fullName: Hsm.MultiLanguage.TranslationCollection.AddRange(System.Collections.Generic.IEnumerable<Hsm.MultiLanguage.Translation>)
-  fullName.vb: Hsm.MultiLanguage.TranslationCollection.AddRange(System.Collections.Generic.IEnumerable(Of Hsm.MultiLanguage.Translation))
-  nameWithType: TranslationCollection.AddRange(IEnumerable<Translation>)
-  nameWithType.vb: TranslationCollection.AddRange(IEnumerable(Of Translation))
-- uid: Hsm.MultiLanguage.TranslationCollection.AddRange*
-  name: AddRange
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_AddRange_
-  commentId: Overload:Hsm.MultiLanguage.TranslationCollection.AddRange
+- uid: Hsm.MultiLanguage.Translations
+  name: Translations
+  href: api/Hsm.MultiLanguage.Translations.html
+  commentId: T:Hsm.MultiLanguage.Translations
+  fullName: Hsm.MultiLanguage.Translations
+  nameWithType: Translations
+- uid: Hsm.MultiLanguage.Translations.GetKeyForItem(Hsm.MultiLanguage.Translation)
+  name: GetKeyForItem(Translation)
+  href: api/Hsm.MultiLanguage.Translations.html#Hsm_MultiLanguage_Translations_GetKeyForItem_Hsm_MultiLanguage_Translation_
+  commentId: M:Hsm.MultiLanguage.Translations.GetKeyForItem(Hsm.MultiLanguage.Translation)
+  fullName: Hsm.MultiLanguage.Translations.GetKeyForItem(Hsm.MultiLanguage.Translation)
+  nameWithType: Translations.GetKeyForItem(Translation)
+- uid: Hsm.MultiLanguage.Translations.GetKeyForItem*
+  name: GetKeyForItem
+  href: api/Hsm.MultiLanguage.Translations.html#Hsm_MultiLanguage_Translations_GetKeyForItem_
+  commentId: Overload:Hsm.MultiLanguage.Translations.GetKeyForItem
   isSpec: "True"
-  fullName: Hsm.MultiLanguage.TranslationCollection.AddRange
-  nameWithType: TranslationCollection.AddRange
-- uid: Hsm.MultiLanguage.TranslationCollection.ContainsTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  name: ContainsTranslationWithLanguageTag(LanguageTag)
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_ContainsTranslationWithLanguageTag_Hsm_MultiLanguage_LanguageTag_
-  commentId: M:Hsm.MultiLanguage.TranslationCollection.ContainsTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  fullName: Hsm.MultiLanguage.TranslationCollection.ContainsTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  nameWithType: TranslationCollection.ContainsTranslationWithLanguageTag(LanguageTag)
-- uid: Hsm.MultiLanguage.TranslationCollection.ContainsTranslationWithLanguageTag*
-  name: ContainsTranslationWithLanguageTag
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_ContainsTranslationWithLanguageTag_
-  commentId: Overload:Hsm.MultiLanguage.TranslationCollection.ContainsTranslationWithLanguageTag
-  isSpec: "True"
-  fullName: Hsm.MultiLanguage.TranslationCollection.ContainsTranslationWithLanguageTag
-  nameWithType: TranslationCollection.ContainsTranslationWithLanguageTag
-- uid: Hsm.MultiLanguage.TranslationCollection.GetTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  name: GetTranslationWithLanguageTag(LanguageTag)
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_GetTranslationWithLanguageTag_Hsm_MultiLanguage_LanguageTag_
-  commentId: M:Hsm.MultiLanguage.TranslationCollection.GetTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  fullName: Hsm.MultiLanguage.TranslationCollection.GetTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)
-  nameWithType: TranslationCollection.GetTranslationWithLanguageTag(LanguageTag)
-- uid: Hsm.MultiLanguage.TranslationCollection.GetTranslationWithLanguageTag*
-  name: GetTranslationWithLanguageTag
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_GetTranslationWithLanguageTag_
-  commentId: Overload:Hsm.MultiLanguage.TranslationCollection.GetTranslationWithLanguageTag
-  isSpec: "True"
-  fullName: Hsm.MultiLanguage.TranslationCollection.GetTranslationWithLanguageTag
-  nameWithType: TranslationCollection.GetTranslationWithLanguageTag
-- uid: Hsm.MultiLanguage.TranslationCollection.InsertItem(System.Int32,Hsm.MultiLanguage.Translation)
-  name: InsertItem(Int32, Translation)
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_InsertItem_System_Int32_Hsm_MultiLanguage_Translation_
-  commentId: M:Hsm.MultiLanguage.TranslationCollection.InsertItem(System.Int32,Hsm.MultiLanguage.Translation)
-  fullName: Hsm.MultiLanguage.TranslationCollection.InsertItem(System.Int32, Hsm.MultiLanguage.Translation)
-  nameWithType: TranslationCollection.InsertItem(Int32, Translation)
-- uid: Hsm.MultiLanguage.TranslationCollection.InsertItem*
-  name: InsertItem
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_InsertItem_
-  commentId: Overload:Hsm.MultiLanguage.TranslationCollection.InsertItem
-  isSpec: "True"
-  fullName: Hsm.MultiLanguage.TranslationCollection.InsertItem
-  nameWithType: TranslationCollection.InsertItem
-- uid: Hsm.MultiLanguage.TranslationCollection.SetItem(System.Int32,Hsm.MultiLanguage.Translation)
-  name: SetItem(Int32, Translation)
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_SetItem_System_Int32_Hsm_MultiLanguage_Translation_
-  commentId: M:Hsm.MultiLanguage.TranslationCollection.SetItem(System.Int32,Hsm.MultiLanguage.Translation)
-  fullName: Hsm.MultiLanguage.TranslationCollection.SetItem(System.Int32, Hsm.MultiLanguage.Translation)
-  nameWithType: TranslationCollection.SetItem(Int32, Translation)
-- uid: Hsm.MultiLanguage.TranslationCollection.SetItem*
-  name: SetItem
-  href: api/Hsm.MultiLanguage.TranslationCollection.html#Hsm_MultiLanguage_TranslationCollection_SetItem_
-  commentId: Overload:Hsm.MultiLanguage.TranslationCollection.SetItem
-  isSpec: "True"
-  fullName: Hsm.MultiLanguage.TranslationCollection.SetItem
-  nameWithType: TranslationCollection.SetItem
+  fullName: Hsm.MultiLanguage.Translations.GetKeyForItem
+  nameWithType: Translations.GetKeyForItem

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/daniel.egger/source/repos/MultiLanguageInvariantRelease/DotNet/Documentation",
+  "source_base_path": "C:/Git Repositories/HsM MultiLanguage/DotNet/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.LanguageSubTag.html",
-          "hash": "LSV2bvcDaDwvMzpPEvb1YA=="
+          "hash": "0H8a8bAzcuNEsGXK4QHgeg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.LanguageTag.html",
-          "hash": "2Q/M01M+oizlLZfxNIGHgw=="
+          "hash": "Br/vUcv0oBfvrS159UIBwQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.Phrase.html",
-          "hash": "aYF0xEh0FpttLi1aMiuQVw=="
+          "hash": "lAuhfMWb7kpD473tvJGwmQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.RegionSubTag.html",
-          "hash": "cwzo/g4LD9851gTeYkvFgg=="
+          "hash": "2HlTxL4MwYFd4KS2LMiK1g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.SubTag.html",
-          "hash": "300qcizALbI7ftYxvKIVdg=="
+          "hash": "ooIHV6S14HHiBsWapROSRQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,22 +69,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.Translation.html",
-          "hash": "0iFOCSqEXyP258m4g29boA=="
+          "hash": "t7i3aDajU7sUqRapWXVhXw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.MultiLanguage.TranslationCollection.yml",
+      "source_relative_path": "api/Hsm.MultiLanguage.Translations.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hsm.MultiLanguage.TranslationCollection.html",
-          "hash": "EV10VcpPWMjVW/r40wQfFw=="
+          "relative_path": "api/Hsm.MultiLanguage.Translations.html",
+          "hash": "cObwqZTly5X3uMuMrjCgZA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.MultiLanguage.html",
-          "hash": "29ZxJcLcT/kWaVcDOoZgbQ=="
+          "hash": "d2Xj0JLUJtxvtJsWd0GrKQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Xp11/zoMQDeok9Lvdh4czA=="
+          "hash": "yGQHPPSOQv+IShGnP54BoA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "FCcsC8V3EHgXmdPZscxuiA=="
+          "hash": "yxquaKJil5u6SCWRxHhADg=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/quickstart.html",
-          "hash": "84G1q0+VHM2uhbTYhEDI4w=="
+          "hash": "8NnktXMKMSDWjBqwPqf/lA=="
         }
       },
       "is_incremental": true,
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "UF6C5oS5ZUAUdBlmP++dVw=="
+          "hash": "8KTAsns/5vo8jrSQyXhJPA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -185,13 +185,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 8,
-          "skipped_file_count": 8
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

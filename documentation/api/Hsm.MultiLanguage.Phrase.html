@@ -73,7 +73,7 @@
   
   <h1 id="Hsm_MultiLanguage_Phrase" data-uid="Hsm.MultiLanguage.Phrase" class="text-break">Class Phrase
   </h1>
-  <div class="markdown level0 summary"><p>Represents a single translatable phrase.</p>
+  <div class="markdown level0 summary"><p>Represents a translatable group of words.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -106,25 +106,92 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.MultiLanguage.html">Hsm.MultiLanguage</a></h6>
-  <h6><strong>Assembly</strong>: MultiLanguage.dll</h6>
+  <h6><strong>Assembly</strong>: Hsm.MultiLanguage.dll</h6>
   <h5 id="Hsm_MultiLanguage_Phrase_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Phrase</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=13">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=15">View Source</a>
   </span>
-  <a id="Hsm_MultiLanguage_Phrase_Translations_" data-uid="Hsm.MultiLanguage.Phrase.Translations*"></a>
-  <h4 id="Hsm_MultiLanguage_Phrase_Translations" data-uid="Hsm.MultiLanguage.Phrase.Translations">Translations</h4>
-  <div class="markdown level1 summary"><p>Gets the list of translations of the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>.</p>
+  <a id="Hsm_MultiLanguage_Phrase__ctor_" data-uid="Hsm.MultiLanguage.Phrase.#ctor*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase__ctor" data-uid="Hsm.MultiLanguage.Phrase.#ctor">Phrase()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TranslationCollection Translations { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Phrase()</code></pre>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=25">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase__ctor_" data-uid="Hsm.MultiLanguage.Phrase.#ctor*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase__ctor_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_Translation__" data-uid="Hsm.MultiLanguage.Phrase.#ctor(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})">Phrase(IEnumerable&lt;Translation&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Phrase(IEnumerable&lt;Translation&gt; translations)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>&gt;</td>
+        <td><span class="parametername">translations</span></td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> contains one or more null elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=50">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_Translations_" data-uid="Hsm.MultiLanguage.Phrase.Translations*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_Translations" data-uid="Hsm.MultiLanguage.Phrase.Translations">Translations</h4>
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_Translations">Translations</a> of this <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Translations Translations { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,7 +203,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.MultiLanguage.TranslationCollection.html">TranslationCollection</a></td>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translations.html">Translations</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -145,7 +212,164 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=21">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=79">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_AddInvariantEnglishTranslation_" data-uid="Hsm.MultiLanguage.Phrase.AddInvariantEnglishTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_AddInvariantEnglishTranslation_System_String_" data-uid="Hsm.MultiLanguage.Phrase.AddInvariantEnglishTranslation(System.String)">AddInvariantEnglishTranslation(String)</h4>
+  <div class="markdown level1 summary"><p>Adds a translation with the given <code data-dev-comment-type="paramref" class="paramref">translationValue</code> and invariant English language tag to the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddInvariantEnglishTranslation(string translationValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">translationValue</span></td>
+        <td><p>The <a class="xref" href="Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_Value">Value</a> for the invariant English translation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Phrase already contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with the same <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> as the passed <param name="translationValue">.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translationValue</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=138">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_AddOrReplaceTranslation_" data-uid="Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_AddOrReplaceTranslation_Hsm_MultiLanguage_Translation_" data-uid="Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(Hsm.MultiLanguage.Translation)">AddOrReplaceTranslation(Translation)</h4>
+  <div class="markdown level1 summary"><p>Adds the passes <code data-dev-comment-type="paramref" class="paramref">translation</code> to this <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> if the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> does not jet contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with that <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>,
+Replaces the <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with the same <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddOrReplaceTranslation(Translation translation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><span class="parametername">translation</span></td>
+        <td><p><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> to be added or replaced.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translation</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=160">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_AddOrReplaceTranslation_" data-uid="Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_AddOrReplaceTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_Translation__" data-uid="Hsm.MultiLanguage.Phrase.AddOrReplaceTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})">AddOrReplaceTranslation(IEnumerable&lt;Translation&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds or replaces multiple <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> objects to the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddOrReplaceTranslation(IEnumerable&lt;Translation&gt; translations)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>&gt;</td>
+        <td><span class="parametername">translations</span></td>
+        <td><p><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> to be added or replaced.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> contains one or more null elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> contains duplicate translations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=58">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_Phrase_AddTranslation_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslation*"></a>
   <h4 id="Hsm_MultiLanguage_Phrase_AddTranslation_Hsm_MultiLanguage_Translation_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslation(Hsm.MultiLanguage.Translation)">AddTranslation(Translation)</h4>
@@ -169,7 +393,7 @@
       <tr>
         <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
         <td><span class="parametername">translation</span></td>
-        <td><p><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> to be added.</p>
+        <td><p>The <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> to be added.</p>
 </td>
       </tr>
     </tbody>
@@ -185,7 +409,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>This phrase already contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with an equal <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> to the one used in <code data-dev-comment-type="paramref" class="paramref">translation</code>.</p>
+        <td><p>Phrase already contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with the same <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> as the passed <param name="translation">.</p>
 </td>
       </tr>
       <tr>
@@ -197,16 +421,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=37">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=99">View Source</a>
   </span>
-  <a id="Hsm_MultiLanguage_Phrase_AddTranslations_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslations*"></a>
-  <h4 id="Hsm_MultiLanguage_Phrase_AddTranslations_Hsm_MultiLanguage_TranslationCollection_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslations(Hsm.MultiLanguage.TranslationCollection)">AddTranslations(TranslationCollection)</h4>
-  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="Hsm.MultiLanguage.TranslationCollection.html">TranslationCollection</a> to this <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>.</p>
+  <a id="Hsm_MultiLanguage_Phrase_AddTranslation_" data-uid="Hsm.MultiLanguage.Phrase.AddTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_AddTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_Translation__" data-uid="Hsm.MultiLanguage.Phrase.AddTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.Translation})">AddTranslation(IEnumerable&lt;Translation&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds multiple <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> objects to the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddTranslations(TranslationCollection translations)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddTranslation(IEnumerable&lt;Translation&gt; translations)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -219,9 +443,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.MultiLanguage.TranslationCollection.html">TranslationCollection</a></td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>&gt;</td>
         <td><span class="parametername">translations</span></td>
-        <td><p><a class="xref" href="Hsm.MultiLanguage.TranslationCollection.html">TranslationCollection</a> to be added.</p>
+        <td><p>The <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> objects to add.</p>
 </td>
       </tr>
     </tbody>
@@ -236,29 +460,188 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>This phrase already contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with a language tag equal to a language tag of <code data-dev-comment-type="paramref" class="paramref">translations</code>.</p>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> is null.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> is null.</p>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> contains one or more null elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> contains translations with the equal <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">translations</code> contains at least one translation with a <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> that has already a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>in the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=54">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=215">View Source</a>
   </span>
-  <a id="Hsm_MultiLanguage_Phrase_GetTranslationWithLanguageTag_" data-uid="Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag*"></a>
-  <h4 id="Hsm_MultiLanguage_Phrase_GetTranslationWithLanguageTag_Hsm_MultiLanguage_LanguageTag_" data-uid="Hsm.MultiLanguage.Phrase.GetTranslationWithLanguageTag(Hsm.MultiLanguage.LanguageTag)">GetTranslationWithLanguageTag(LanguageTag)</h4>
+  <a id="Hsm_MultiLanguage_Phrase_GetBestTranslation_" data-uid="Hsm.MultiLanguage.Phrase.GetBestTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_GetBestTranslation_Hsm_MultiLanguage_LanguageTag_" data-uid="Hsm.MultiLanguage.Phrase.GetBestTranslation(Hsm.MultiLanguage.LanguageTag)">GetBestTranslation(LanguageTag)</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> of this <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> with the passed <code data-dev-comment-type="paramref" class="paramref">preferredLanguageTag</code>.
+If the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> does not contain a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> with the <code data-dev-comment-type="paramref" class="paramref">preferredLanguageTag</code>
+this method will use the fall-back-mechanism of the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> to get another translation. If the
+<a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>phrase does not contain a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>for any of the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> produced
+by the fall-back-mechanism, this method will return the first <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> in the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Translation GetBestTranslation(LanguageTag preferredLanguageTag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a></td>
+        <td><span class="parametername">preferredLanguageTag</span></td>
+        <td><p>The <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> of the translation that is preferred by the caller.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><p>Returns translation that best matches the requested <code data-dev-comment-type="paramref" class="paramref">preferredLanguageTag</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">preferredLanguageTag</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><a class="xref" href="Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_Translations">Translations</a> does not contain any elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=249">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_GetBestTranslation_" data-uid="Hsm.MultiLanguage.Phrase.GetBestTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_GetBestTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_LanguageTag__" data-uid="Hsm.MultiLanguage.Phrase.GetBestTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag})">GetBestTranslation(IEnumerable&lt;LanguageTag&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> of this <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> based on the <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> <code data-dev-comment-type="paramref" class="paramref">preferredLanguageTags</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Translation GetBestTranslation(IEnumerable&lt;LanguageTag&gt; preferredLanguageTags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>&gt;</td>
+        <td><span class="parametername">preferredLanguageTags</span></td>
+        <td><p>A prioritized list of <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><blockquote>
+<p>Returns a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> based on the passed <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.
+The best translation will be defined by the hierarchy of the <code data-dev-comment-type="paramref" class="paramref">preferredLanguageTags</code>, first it check for exat matches then parent language tag matches,
+if there are no parents it will return the first of default translation.</p>
+</blockquote>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">preferredLanguageTags</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><see cref="!:preferredLanguageTags"></see> does not contain any elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><a class="xref" href="Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_Translations">Translations</a> does not contain any elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=199">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_GetTranslation_" data-uid="Hsm.MultiLanguage.Phrase.GetTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_GetTranslation_Hsm_MultiLanguage_LanguageTag_" data-uid="Hsm.MultiLanguage.Phrase.GetTranslation(Hsm.MultiLanguage.LanguageTag)">GetTranslation(LanguageTag)</h4>
   <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> of this <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> based on the <code data-dev-comment-type="paramref" class="paramref">languageTag</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Translation GetTranslationWithLanguageTag(LanguageTag languageTag)</code></pre>
+    <pre><code class="lang-csharp hljs">public Translation GetTranslation(LanguageTag languageTag)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -289,9 +672,278 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
-        <td><p>Returns a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> based on the passed <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.
-If the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> is not in the collection, this method returns a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> based on following fallback mechanism:
-Equal <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> &gt; equal <a class="xref" href="Hsm.MultiLanguage.LanguageSubTag.html">LanguageSubTag</a> &gt; invariant English (en) &gt; first <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> &gt; null.</p>
+        <td><p>Returns a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> based on the passed <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=288">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_HasInvariantEnglishTranslation_" data-uid="Hsm.MultiLanguage.Phrase.HasInvariantEnglishTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_HasInvariantEnglishTranslation" data-uid="Hsm.MultiLanguage.Phrase.HasInvariantEnglishTranslation">HasInvariantEnglishTranslation()</h4>
+  <div class="markdown level1 summary"><p>Checks whether the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> contains a <a class="xref" href="Hsm.MultiLanguage.Phrase.html#Hsm_MultiLanguage_Phrase_Translations">Translations</a> with <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_InvariantEnglish">InvariantEnglish</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasInvariantEnglishTranslation()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> has an <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_InvariantEnglish">InvariantEnglish</a> translation, false if not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=298">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_HasTranslation_" data-uid="Hsm.MultiLanguage.Phrase.HasTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_HasTranslation_Hsm_MultiLanguage_LanguageTag_" data-uid="Hsm.MultiLanguage.Phrase.HasTranslation(Hsm.MultiLanguage.LanguageTag)">HasTranslation(LanguageTag)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> has a translation with the specified <code data-dev-comment-type="paramref" class="paramref">languageTag</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTranslation(LanguageTag languageTag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a></td>
+        <td><span class="parametername">languageTag</span></td>
+        <td><p>The <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> for which the translation existence is checked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> has a translation with the specified <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=315">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_HasTranslation_" data-uid="Hsm.MultiLanguage.Phrase.HasTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_HasTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_LanguageTag__" data-uid="Hsm.MultiLanguage.Phrase.HasTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag})">HasTranslation(IEnumerable&lt;LanguageTag&gt;)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> has a translation in at least one of the provided <code data-dev-comment-type="paramref" class="paramref">languageTags</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTranslation(IEnumerable&lt;LanguageTag&gt; languageTags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>&gt;</td>
+        <td><span class="parametername">languageTags</span></td>
+        <td><p><see cref="!:IEnumerable&lt;T>(LanguageTag)"></see> <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> for translation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> has the specified translations, false if not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">languageTags</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">languageTags</code> contains null elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=341">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_TryGetTranslation_" data-uid="Hsm.MultiLanguage.Phrase.TryGetTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_TryGetTranslation_Hsm_MultiLanguage_LanguageTag_Hsm_MultiLanguage_Translation__" data-uid="Hsm.MultiLanguage.Phrase.TryGetTranslation(Hsm.MultiLanguage.LanguageTag,Hsm.MultiLanguage.Translation@)">TryGetTranslation(LanguageTag, out Translation)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> contains a translation with a <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> equal to the passed
+<code data-dev-comment-type="paramref" class="paramref">languageTag</code> and returns this <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetTranslation(LanguageTag languageTag, out Translation translation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a></td>
+        <td><span class="parametername">languageTag</span></td>
+        <td><p>The <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> requested.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><span class="parametername">translation</span></td>
+        <td><p>The <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a> if the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> contains a <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>
+with the requested <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>, null otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> contains a translation with a <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> eaqual to
+<code data-dev-comment-type="paramref" class="paramref">languageTag</code>, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=365">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Phrase_TryGetTranslation_" data-uid="Hsm.MultiLanguage.Phrase.TryGetTranslation*"></a>
+  <h4 id="Hsm_MultiLanguage_Phrase_TryGetTranslation_System_Collections_Generic_IEnumerable_Hsm_MultiLanguage_LanguageTag__Hsm_MultiLanguage_Translation__" data-uid="Hsm.MultiLanguage.Phrase.TryGetTranslation(System.Collections.Generic.IEnumerable{Hsm.MultiLanguage.LanguageTag},Hsm.MultiLanguage.Translation@)">TryGetTranslation(IEnumerable&lt;LanguageTag&gt;, out Translation)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the <a class="xref" href="Hsm.MultiLanguage.Phrase.html">Phrase</a> contains a translation with a <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> equal to one of the passed
+<code data-dev-comment-type="paramref" class="paramref">prioritizedLanguageTags</code> and returns the first matching <a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>.
+<code data-dev-comment-type="paramref" class="paramref">prioritizedLanguageTags</code>. If found the first matching translation will be returned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetTranslation(IEnumerable&lt;LanguageTag&gt; prioritizedLanguageTags, out Translation translation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a>&gt;</td>
+        <td><span class="parametername">prioritizedLanguageTags</span></td>
+        <td><p>A prioritized list of <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> objects.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><span class="parametername">translation</span></td>
+        <td><p>The first matching translation, null if no match was found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the phrase has at least a translation in one of the passed languages.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">prioritizedLanguageTags</code> is null.</p>
 </td>
       </tr>
     </tbody>
@@ -304,7 +956,7 @@ Equal <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html">LanguageTag</a> 
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=8" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Phrase.cs&amp;version=GBdevelop&amp;line=10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

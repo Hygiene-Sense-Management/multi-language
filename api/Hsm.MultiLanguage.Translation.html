@@ -81,16 +81,14 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Translation</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a>&gt;</div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -109,13 +107,13 @@
   <h6><strong>Assembly</strong>: Hsm.MultiLanguage.dll</h6>
   <h5 id="Hsm_MultiLanguage_Translation_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Translation</code></pre>
+    <pre><code class="lang-csharp hljs">public class Translation : IEquatable&lt;Translation&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=16">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=17">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_Translation__ctor_" data-uid="Hsm.MultiLanguage.Translation.#ctor*"></a>
   <h4 id="Hsm_MultiLanguage_Translation__ctor_Hsm_MultiLanguage_LanguageTag_System_String_" data-uid="Hsm.MultiLanguage.Translation.#ctor(Hsm.MultiLanguage.LanguageTag,System.String)">Translation(LanguageTag, String)</h4>
@@ -164,13 +162,46 @@
         <td><p><code data-dev-comment-type="paramref" class="paramref">languageTag</code> is null.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">value</code> is null or whitespace.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=25">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=37">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Translation_HasTranslationValue_" data-uid="Hsm.MultiLanguage.Translation.HasTranslationValue*"></a>
+  <h4 id="Hsm_MultiLanguage_Translation_HasTranslationValue" data-uid="Hsm.MultiLanguage.Translation.HasTranslationValue">HasTranslationValue</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether there is an actual value for this translation or if the translation value was never provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTranslationValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=32">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_Translation_LanguageTag_" data-uid="Hsm.MultiLanguage.Translation.LanguageTag*"></a>
   <h4 id="Hsm_MultiLanguage_Translation_LanguageTag" data-uid="Hsm.MultiLanguage.Translation.LanguageTag">LanguageTag</h4>
@@ -198,7 +229,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=30">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=42">View Source</a>
   </span>
   <a id="Hsm_MultiLanguage_Translation_Value_" data-uid="Hsm.MultiLanguage.Translation.Value*"></a>
   <h4 id="Hsm_MultiLanguage_Translation_Value" data-uid="Hsm.MultiLanguage.Translation.Value">Value</h4>
@@ -224,6 +255,260 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=64">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Translation_Equals_" data-uid="Hsm.MultiLanguage.Translation.Equals*"></a>
+  <h4 id="Hsm_MultiLanguage_Translation_Equals_Hsm_MultiLanguage_Translation_" data-uid="Hsm.MultiLanguage.Translation.Equals(Hsm.MultiLanguage.Translation)">Equals(Translation)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Translation other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=80">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Translation_Equals_" data-uid="Hsm.MultiLanguage.Translation.Equals*"></a>
+  <h4 id="Hsm_MultiLanguage_Translation_Equals_System_Object_" data-uid="Hsm.MultiLanguage.Translation.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=96">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Translation_GetHashCode_" data-uid="Hsm.MultiLanguage.Translation.GetHashCode*"></a>
+  <h4 id="Hsm_MultiLanguage_Translation_GetHashCode" data-uid="Hsm.MultiLanguage.Translation.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=58">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Translation_IsInvariantEnglish_" data-uid="Hsm.MultiLanguage.Translation.IsInvariantEnglish*"></a>
+  <h4 id="Hsm_MultiLanguage_Translation_IsInvariantEnglish" data-uid="Hsm.MultiLanguage.Translation.IsInvariantEnglish">IsInvariantEnglish()</h4>
+  <div class="markdown level1 summary"><p>Checks if this translation is for the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_InvariantEnglish">InvariantEnglish</a> language.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInvariantEnglish()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if this translation is for the <a class="xref" href="Hsm.MultiLanguage.LanguageTag.html#Hsm_MultiLanguage_LanguageTag_InvariantEnglish">InvariantEnglish</a> language, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=44">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Translation_op_Equality_" data-uid="Hsm.MultiLanguage.Translation.op_Equality*"></a>
+  <h4 id="Hsm_MultiLanguage_Translation_op_Equality_Hsm_MultiLanguage_Translation_Hsm_MultiLanguage_Translation_" data-uid="Hsm.MultiLanguage.Translation.op_Equality(Hsm.MultiLanguage.Translation,Hsm.MultiLanguage.Translation)">Equality(Translation, Translation)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Translation translationA, Translation translationB)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><span class="parametername">translationA</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><span class="parametername">translationB</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20MultiLanguage/_git/HsM%20MultiLanguage?path=DotNet/MultiLanguage/Translation.cs&amp;version=GBdevelop&amp;line=49">View Source</a>
+  </span>
+  <a id="Hsm_MultiLanguage_Translation_op_Inequality_" data-uid="Hsm.MultiLanguage.Translation.op_Inequality*"></a>
+  <h4 id="Hsm_MultiLanguage_Translation_op_Inequality_Hsm_MultiLanguage_Translation_Hsm_MultiLanguage_Translation_" data-uid="Hsm.MultiLanguage.Translation.op_Inequality(Hsm.MultiLanguage.Translation,Hsm.MultiLanguage.Translation)">Inequality(Translation, Translation)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Translation translationA, Translation translationB)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><span class="parametername">translationA</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Hsm.MultiLanguage.Translation.html">Translation</a></td>
+        <td><span class="parametername">translationB</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
 </article>
           </div>
           

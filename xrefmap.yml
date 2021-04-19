@@ -523,6 +523,64 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.Translation.Translation
   nameWithType: Translation.Translation
+- uid: Hsm.MultiLanguage.Translation.Equals(Hsm.MultiLanguage.Translation)
+  name: Equals(Translation)
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_Equals_Hsm_MultiLanguage_Translation_
+  commentId: M:Hsm.MultiLanguage.Translation.Equals(Hsm.MultiLanguage.Translation)
+  fullName: Hsm.MultiLanguage.Translation.Equals(Hsm.MultiLanguage.Translation)
+  nameWithType: Translation.Equals(Translation)
+- uid: Hsm.MultiLanguage.Translation.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_Equals_System_Object_
+  commentId: M:Hsm.MultiLanguage.Translation.Equals(System.Object)
+  fullName: Hsm.MultiLanguage.Translation.Equals(System.Object)
+  nameWithType: Translation.Equals(Object)
+- uid: Hsm.MultiLanguage.Translation.Equals*
+  name: Equals
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_Equals_
+  commentId: Overload:Hsm.MultiLanguage.Translation.Equals
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Translation.Equals
+  nameWithType: Translation.Equals
+- uid: Hsm.MultiLanguage.Translation.GetHashCode
+  name: GetHashCode()
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_GetHashCode
+  commentId: M:Hsm.MultiLanguage.Translation.GetHashCode
+  fullName: Hsm.MultiLanguage.Translation.GetHashCode()
+  nameWithType: Translation.GetHashCode()
+- uid: Hsm.MultiLanguage.Translation.GetHashCode*
+  name: GetHashCode
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_GetHashCode_
+  commentId: Overload:Hsm.MultiLanguage.Translation.GetHashCode
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Translation.GetHashCode
+  nameWithType: Translation.GetHashCode
+- uid: Hsm.MultiLanguage.Translation.HasTranslationValue
+  name: HasTranslationValue
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_HasTranslationValue
+  commentId: P:Hsm.MultiLanguage.Translation.HasTranslationValue
+  fullName: Hsm.MultiLanguage.Translation.HasTranslationValue
+  nameWithType: Translation.HasTranslationValue
+- uid: Hsm.MultiLanguage.Translation.HasTranslationValue*
+  name: HasTranslationValue
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_HasTranslationValue_
+  commentId: Overload:Hsm.MultiLanguage.Translation.HasTranslationValue
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Translation.HasTranslationValue
+  nameWithType: Translation.HasTranslationValue
+- uid: Hsm.MultiLanguage.Translation.IsInvariantEnglish
+  name: IsInvariantEnglish()
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_IsInvariantEnglish
+  commentId: M:Hsm.MultiLanguage.Translation.IsInvariantEnglish
+  fullName: Hsm.MultiLanguage.Translation.IsInvariantEnglish()
+  nameWithType: Translation.IsInvariantEnglish()
+- uid: Hsm.MultiLanguage.Translation.IsInvariantEnglish*
+  name: IsInvariantEnglish
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_IsInvariantEnglish_
+  commentId: Overload:Hsm.MultiLanguage.Translation.IsInvariantEnglish
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Translation.IsInvariantEnglish
+  nameWithType: Translation.IsInvariantEnglish
 - uid: Hsm.MultiLanguage.Translation.LanguageTag
   name: LanguageTag
   href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_LanguageTag
@@ -536,6 +594,32 @@ references:
   isSpec: "True"
   fullName: Hsm.MultiLanguage.Translation.LanguageTag
   nameWithType: Translation.LanguageTag
+- uid: Hsm.MultiLanguage.Translation.op_Equality(Hsm.MultiLanguage.Translation,Hsm.MultiLanguage.Translation)
+  name: Equality(Translation, Translation)
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_op_Equality_Hsm_MultiLanguage_Translation_Hsm_MultiLanguage_Translation_
+  commentId: M:Hsm.MultiLanguage.Translation.op_Equality(Hsm.MultiLanguage.Translation,Hsm.MultiLanguage.Translation)
+  fullName: Hsm.MultiLanguage.Translation.Equality(Hsm.MultiLanguage.Translation, Hsm.MultiLanguage.Translation)
+  nameWithType: Translation.Equality(Translation, Translation)
+- uid: Hsm.MultiLanguage.Translation.op_Equality*
+  name: Equality
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_op_Equality_
+  commentId: Overload:Hsm.MultiLanguage.Translation.op_Equality
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Translation.Equality
+  nameWithType: Translation.Equality
+- uid: Hsm.MultiLanguage.Translation.op_Inequality(Hsm.MultiLanguage.Translation,Hsm.MultiLanguage.Translation)
+  name: Inequality(Translation, Translation)
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_op_Inequality_Hsm_MultiLanguage_Translation_Hsm_MultiLanguage_Translation_
+  commentId: M:Hsm.MultiLanguage.Translation.op_Inequality(Hsm.MultiLanguage.Translation,Hsm.MultiLanguage.Translation)
+  fullName: Hsm.MultiLanguage.Translation.Inequality(Hsm.MultiLanguage.Translation, Hsm.MultiLanguage.Translation)
+  nameWithType: Translation.Inequality(Translation, Translation)
+- uid: Hsm.MultiLanguage.Translation.op_Inequality*
+  name: Inequality
+  href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_op_Inequality_
+  commentId: Overload:Hsm.MultiLanguage.Translation.op_Inequality
+  isSpec: "True"
+  fullName: Hsm.MultiLanguage.Translation.Inequality
+  nameWithType: Translation.Inequality
 - uid: Hsm.MultiLanguage.Translation.Value
   name: Value
   href: api/Hsm.MultiLanguage.Translation.html#Hsm_MultiLanguage_Translation_Value
